@@ -9,6 +9,9 @@ while(RandomNumber !=num){
     if(RandomNumber == num){
         console.log("CORRECT")
     }
+    else if(difference <= 3){
+        console.log("HOT")
+    }
     else{
         console.log("Cold")
     }
