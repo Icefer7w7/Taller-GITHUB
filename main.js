@@ -1,8 +1,9 @@
-var RandomNumber = Math.random()*10
+var RandomNumber = parseInt(Math.random()*10)+1;
+console.log("secret Numer", RandomNumber);
 var num;
 
 while(RandomNumber !=num){
-    num = (prompt("Coloca your number"));
+    num = parseInt(prompt("Coloca your number"));
 
     var difference=Math.abs(RandomNumber-num);
 
