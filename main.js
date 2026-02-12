@@ -3,7 +3,7 @@ console.log("secret Numer", RandomNumber);
 var num;
 
 while(RandomNumber !=num){
-    num = parseInt(prompt("Coloca your number"));
+    num = parseInt(prompt("Coloca your number between 1 and 10"));
 
     var difference=Math.abs(RandomNumber-num);
 
